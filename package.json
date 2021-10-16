@@ -1,0 +1,29 @@
+{
+  "name": "realtime_chat_app",
+  "version": "1.0.0",
+  "description": "A chat app built using nodejs, express, socketio",
+  "main": "app_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develope": "nodemon app_server.js",
+    "start": "node app_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnasOkasha-chambaam/realtime_chat_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnasOkasha-chambaam/realtime_chat_app/issues"
+  },
+  "homepage": "https://github.com/AnasOkasha-chambaam/realtime_chat_app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
