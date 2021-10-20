@@ -82,7 +82,12 @@ a {
 }
 
 .chat-sidebar ul li {
-	padding: 10px 0;
+	padding: 10px;
+}
+
+.chat-sidebar ul li.me-li {
+	padding: 10px;
+	background-color: rgba(51, 51, 51, 0.166);
 }
 
 .chat-messages {
