@@ -56,7 +56,7 @@ function showAMessage(userName, msg, time, type){
 
     chat_messages.appendChild(contDiv);
 
-    chat_messages.scroll({top: contDiv.getBoundingClientRect().top, behavior: 'smooth'})
+    chat_messages.scroll({top: contDiv.offsetTop, behavior: 'smooth'})
 }
 
 let handleReciviedMessage = (formatedMsg)=>{
